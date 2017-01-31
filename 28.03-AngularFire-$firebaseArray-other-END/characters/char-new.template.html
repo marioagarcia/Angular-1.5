@@ -1,0 +1,65 @@
+<md-content layout-gt-sm="row" layout-padding>
+    <div>
+        <md-input-container>
+            <label>Name</label>
+            <input ng-model="vm.newCharacter.name" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Height</label>
+            <input ng-model="vm.newCharacter.height" type="number">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Mass</label>
+            <input ng-model="vm.newCharacter.mass" type="number">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Hair Color</label>
+            <input ng-model="vm.newCharacter.hair_color" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Skin Color</label>
+            <input ng-model="vm.newCharacter.skin_color" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Eye Color</label>
+            <input ng-model="vm.newCharacter.eye_color" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Hotness Scale (1-10)</label>
+            <input ng-model="vm.newCharacter.hotness" type="number">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Birth Year</label>
+            <input ng-model="vm.newCharacter.birth_year" type="text">
+        </md-input-container>
+
+        <md-input-container>
+            <label>Gender</label>
+            <input ng-model="vm.newCharacter.gender" type="text">
+        </md-input-container>
+
+    </div>
+    <div>
+        <md-button class="md-raised md-primary" ng-click="vm.saveNewChar()">
+            Save
+        </md-button>
+    </div>
+</md-content>
+
+<!--{-->
+<!--"name": "Luke Skywalker",-->
+<!--"height": 172,-->
+<!--"mass": 77,-->
+<!--"hair_color": "blond",-->
+<!--"skin_color": "fair",-->
+<!--"eye_color": "blue",-->
+<!--"birth_year": "19BBY",-->
+<!--"gender": "male"-->
+<!--},-->
